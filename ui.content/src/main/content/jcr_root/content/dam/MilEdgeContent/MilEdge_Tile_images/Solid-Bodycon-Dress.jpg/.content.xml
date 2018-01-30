@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="624134da-b2f6-41a9-a362-7d163b39c0b4">
+    <jcr:content
+        cq:name="Solid-Bodycon-Dress.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/MilEdge_Tile_images"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/MilEdge_Tile_images/Solid-Bodycon-Dress.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:06:45.132+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:20.349Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="375f134b1827f2fc53e96c7f3610dd98c42c4e96"
+            dam:size="{Long}10811"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-20T15:02:04.724Z"
+            jcr:lastModified="{Date}2018-01-29T13:06:29.169+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}309"
+            tiff:ImageWidth="{Long}222"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
+            xmpMM:DocumentID="xmp.did:26E59284CAB011E79653E42AC2CF56E1"
+            xmpMM:InstanceID="xmp.iid:26E59283CAB011E79653E42AC2CF56E1"
+            xmpMM:OriginalDocumentID="xmp.did:448d45ef-099c-42de-b98a-5dc930017ae8">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:d76be321-caaf-11e7-9dcf-bb7282b47b43"
+                stRef:instanceID="xmp.iid:b1789e5e-10a5-6046-b8a1-17b9dc8f634a"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

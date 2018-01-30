@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7a7f797b-7fac-4f6a-98eb-2fe769aea6b7">
+    <jcr:content
+        cq:name="Pumps .jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/MilEdge_Tile_images"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/MilEdge_Tile_images/Pumps .jpg"
+        jcr:lastModified="{Date}2018-01-29T13:06:45.296+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-11-24T12:32:33.397+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}4.291666507720947"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}3.0833332538604736"
+            dam:Progressive="no"
+            dam:sha1="8fc174c1479e64841e9822e624d551d795c33c09"
+            dam:size="{Long}34854"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-24T12:32:47.378+05:30"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}222"
+            exif:PixelYDimension="{Long}309"
+            jcr:lastModified="{Date}2018-01-29T13:06:45.171+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[541C40BFCC4DBD44D9807F9E1DF16508,84BF788D87A7C01FBAB85D238F7C2E98,A8F0D72C21CC8BA057772A51F8D6457A,AE1496C991D4263DBAC524FC28894926,BCAFEE4D9D015B2D6E3D90A74CEEFE57,D11928A7BB96A82975513BCFE8D3ECD1,adobe:docid:photoshop:02d75dbe-d0db-11e7-a12e-9a6ca5a248f4]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}309"
+            tiff:ImageWidth="{Long}222"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2017-11-16T14:56:39.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-11-24T11:48:14.000+05:30"
+            xmp:ModifyDate="{Date}2017-11-24T11:48:14.000+05:30"
+            xmpMM:DocumentID="adobe:docid:photoshop:412399a3-d0df-11e7-a12e-9a6ca5a248f4"
+            xmpMM:InstanceID="xmp.iid:437343f6-4643-2d45-bffe-d6c852744d28"
+            xmpMM:OriginalDocumentID="xmp.did:448d45ef-099c-42de-b98a-5dc930017ae8">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:17d03793-09cb-b04b-8766-7c9cdbbe80a6"
+                stRef:instanceID="xmp.iid:81f6ae30-ad52-d648-99ee-e1bd8a969b61"
+                stRef:originalDocumentID="xmp.did:448d45ef-099c-42de-b98a-5dc930017ae8"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}8"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b5c70e8e-a68f-ca41-89a7-a2af21980b90"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-24T11:12:58.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/jpeg to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/jpeg to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:17d03793-09cb-b04b-8766-7c9cdbbe80a6"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-24T11:12:58.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:81f6ae30-ad52-d648-99ee-e1bd8a969b61"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-24T11:48:14.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:437343f6-4643-2d45-bffe-d6c852744d28"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-24T11:48:14.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

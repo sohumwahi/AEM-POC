@@ -1,0 +1,30 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='product-Details'}" data-sly-unwrap/>
+<div class="product-detail-page">
+<div class="product-detail-wrapper">
+<div class="cq-placeholder section hidden-xs" data-emptytext="Accordion_MilEdge"></div>
+    <div class="product-details-details">
+            <div class="product-detail-body">
+                <ul class= "product-details-details-title">
+                    <li  id="description" class=" focus-class ">
+                            ${properties.tabOneTitle}
+                    </li>
+                    <li id="specification">
+                            ${properties.tabTwoTitle}
+                    </li>
+                    <li id="shipping">
+                            Shipping Returns
+                    </li>
+                </ul>
+                <p class= "product-details-description">
+                    ${properties.tabOneDesc}
+                </p>
+                <p class= "product-details-hidden product-details-specification">
+					${properties.tabTwoDesc}
+                </p>
+                <p class= "product-details-hidden product-details-shipping">
+					${properties.tabThreeDesc}
+                </p>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,2 @@
+#base=js
+/etc/designs/MilEdge/clientlibs-Product-Details/js/product-details.js

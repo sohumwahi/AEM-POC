@@ -1,0 +1,10 @@
+#base=css
+/etc/designs/MilEdge/clientlibs/css/product-style.css
+/etc/designs/MilEdge/clientlibs/css/download-modal.css
+/etc/designs/MilEdge/clientlibs/css/style.css
+/etc/designs/MilEdge/clientlibs/css/bootstrap-min.css
+/etc/designs/MilEdge/clientlibs/css/bootstrap.css
+/etc/designs/MilEdge/clientlibs/css/bootstrap-theme.css
+/etc/designs/MilEdge/clientlibs/css/bootstrap-theme.min.css
+/etc/designs/MilEdge/clientlibs/css/download-modal.css
+/etc/designs/MilEdge/clientlibs/css/imageSearch.css

@@ -1,0 +1,146 @@
+<head>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<div class="header-division">
+    <div class="top-border"></div>
+
+    <header class="main-header">
+
+        <!-- Navigation Bar Starts -->
+
+        <span class="logo">
+<a href="${properties.linkURL}.html"><img src="${properties.image}" alt="MilEdge Logo" ></a>
+                </span>
+        <sly data-sly-use.listUse="${'standardmultifield.js' @ multifieldName='links2'}">
+
+           <ul class="header-menu header-top-menu" style="text-align: right; margin-bottom: 0px;">
+                <li class="header-menu-list-top">
+                    <button id="modal-button" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white"><img src="/content/dam/MilEdgeContent/Header_Mobile.png" alt="Mobile Icon" class= "header-menu-top-list-icon">Download App</button>
+                </li>
+
+                <sly data-sly-list="${listUse}">
+
+                    <li class="header-menu-list-top">
+                        <a href="${item.properties.path2}.html" class="header-link">${item.properties.text2}</a>
+                    </li>
+
+                </sly>
+                <li class="header-menu-list-top">
+                        <a class="header-link" id="status"></a>
+                    </li>
+                <!--<li id="status"></li>-->
+            </ul>
+		<input type="hidden" id="fbName" value="" />
+        </sly>
+        <div class="header-menu-top-list-icon" img src="/content/dam/MilEdgeContent/Header_Dropdown.png" />
+
+        <sly data-sly-test="${properties.listFrom == 'lDam'}">
+            <ul class="header-menu header-down-menu">
+                <div data-sly-use.children="${'listChildren.js' @parent=properties.elink}">
+                    <sly data-sly-list.child="${children}">
+                        <li class="header-menu-list"><a class="header-down-link" href="${child.getPath}.html">${child.getTitle}</a></li>
+                    </sly>
+        </sly>
+        </ul>
+        <ul class="header-menu menu-icon">
+            <li class="header-menu-list"><img src="/content/dam/MilEdgeContent/Header_search.png" /></li>
+            <li class="header-menu-list"><img src="/content/dam/MilEdgeContent/Header_Bag.png" /></li>
+        </ul>
+    </header>
+    </div>
+
+    <!-- Navigation Bar Ends -->
+
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content" style="width: 600px;">
+            <div>
+                <span id="close-modal-button" onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <header class="download-modal-header">
+                    <h1>
+                        MilEdge app for Mobile
+                    </h1>
+
+                </header>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-md-6 div-download-store">
+                        <img src="/content/dam/MilEdgeContent/qrcode.png" alt="Android Play Store Link" />
+                        <p class="div-download-store-text-head ">
+                            Scan to download from
+                            <p class="div-download-store-text">Google Play</p>
+                        </p>
+                    </div>
+                    <div class="col-md-6 div-download-store">
+                        <img src="/content/dam/MilEdgeContent/MilEdgeIOS.png" alt="Iphone App Store Link" />
+                        <p class="div-download-store-text-head">
+                            Scan to download from
+                            <p class="div-download-store-text">App Store</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cq-placeholder section" data-emptytext="Header"></div>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+
+        </script>
+
+
+    </head>
+
+    <body>
+        <div id="myModal123" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content" style="width: 50%;margin: 0 auto;">
+                    <div class="modal-header-bsv">
+                        <button id="fbloginbtn" type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+                    </div>
+                    <div class="modal-body-bsv" style="padding-top: 15px;">
+                        <div class="fb-modal-btn" align="center">
+                        <h1 style="color: #4D4D4D;text-align: left;font-size: 16px;">Register</h1>
+                        <hr style="margin-top: 10px;margin-bottom: 20px;border-color: lightgrey;">
+				   <img id="fbregister" class="fb-modal-register-btn fb-login-button" src="/content/dam/MilEdgeContent/FB_BUTTON.png" alt='Register button' />
+      		  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <style>
+            .login-fb-hide-class {
+                display: none;
+            }
+
+            .modal-body-bsv {
+                        position: relative;
+    					padding-bottom: 40px;
+    					padding-top: 50px;
+    					padding-left: 20px;
+                        padding-right: 20px;
+            }
+
+            .modal-header-bsv {
+                padding: 15px;
+            }
+            .modal{
+			    position: absolute !important;
+    top: 173px !important;
+            }
+        </style>
+    </body>
+
+    </html>

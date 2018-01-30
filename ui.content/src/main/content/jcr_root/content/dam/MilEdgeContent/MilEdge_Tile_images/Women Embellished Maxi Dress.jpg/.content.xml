@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d33ec8ba-bb3c-4ece-9213-32667219d7ff">
+    <jcr:content
+        cq:name="Women Embellished Maxi Dress.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/MilEdge_Tile_images"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/MilEdge_Tile_images/Women Embellished Maxi Dress.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:06:46.128+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:21.239Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}4.291666507720947"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}3.0833332538604736"
+            dam:Progressive="no"
+            dam:sha1="1045a6dcc3fa4ca02e3896b678ef2540c5b65e18"
+            dam:size="{Long}51205"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-20T15:02:05.485Z"
+            exif:ColorSpace="{Long}65535"
+            exif:PixelXDimension="{Long}222"
+            exif:PixelYDimension="{Long}309"
+            jcr:lastModified="{Date}2018-01-29T13:06:29.572+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:DocumentAncestors="[12F9FD19557A055F2A056FC36A650436,2110F933E3B81216DFE5C32E4F55F8AF,2ADC5138A101C40C320A0FD267DBA987,4BD50AA9A8DD807240CE693D91088EB6,67937980FAEB6C130BC64C35FA68F821,6CB21276193A774E53BCB56DD1944BB6,7B691BADB1992A1D887012D339342FC4,9E2B3FE349575DD35ECCAC2EDB65A048,9F460246AF61B986B173210CFD21060C,A576CD3BAABBAE5CD37ACC9CCD17176B,DB2B28031B157B76AAA90C305BAB9D01,EAC940202D5881F65368A7E173A895B6,F0F0F644FEB716D727725F7AA11836C0]"
+            photoshop:DocumentAncestors_xmpArrayType="rdf:Bag"
+            tiff:ImageLength="{Long}309"
+            tiff:ImageWidth="{Long}222"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2017-11-15T15:49:57.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)"
+            xmp:MetadataDate="{Date}2017-11-16T15:40:07.000+05:30"
+            xmp:ModifyDate="{Date}2017-11-16T15:40:07.000+05:30"
+            xmpMM:DocumentID="adobe:docid:photoshop:523f81c2-cab6-11e7-9dcf-bb7282b47b43"
+            xmpMM:InstanceID="xmp.iid:4d58efd0-26af-024d-9cf4-f87a0a37e75d"
+            xmpMM:OriginalDocumentID="xmp.did:448d45ef-099c-42de-b98a-5dc930017ae8">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:d76be321-caaf-11e7-9dcf-bb7282b47b43"
+                stRef:instanceID="xmp.iid:c8d34303-c952-474c-b591-3a023d31ebdb"
+                stRef:originalDocumentID="xmp.did:448d45ef-099c-42de-b98a-5dc930017ae8"
+                xmpNodeType="xmpStruct"/>
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}11"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="created"
+                    stEvt:instanceID="xmp.iid:448d45ef-099c-42de-b98a-5dc930017ae8"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)"
+                    stEvt:when="{Date}2017-11-15T15:49:57.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0032_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/png to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0033_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:93d8dc2d-9ee9-459b-ac98-8aa12d7297bb"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)"
+                    stEvt:when="{Date}2017-11-15T17:38:52.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0034_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:ca645640-8501-1349-84cc-dbae016fd4cf"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-16T14:53:00.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0035_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from image/png to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0036_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from image/png to application/vnd.adobe.photoshop"
+                    xmpNodeType="xmpStruct"/>
+                <_x0037_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:1ab03325-fd46-cb40-9475-af831802b964"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-16T14:53:00.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0038_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:c8d34303-c952-474c-b591-3a023d31ebdb"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-16T15:40:07.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+                <_x0039_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="converted"
+                    stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_0
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="derived"
+                    stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg"
+                    xmpNodeType="xmpStruct"/>
+                <_x0031_1
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:4d58efd0-26af-024d-9cf4-f87a0a37e75d"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-16T15:40:07.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

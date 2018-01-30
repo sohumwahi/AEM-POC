@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4398b3cd-e6c2-485c-b7e3-07e53f845f1c">
+    <jcr:content
+        cq:name="11489472857357-MANGO-Women-Black-Self-design-Maxi-Dress-3141489472857069-1_mini.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/maxidress/Maxitile"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/maxidress/Maxitile/11489472857357-MANGO-Women-Black-Self-design-Maxi-Dress-3141489472857069-1_mini.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:07:17.879+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:23.469Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="08258d4682753f8c853c275c7e40636ea4c51e6f"
+            dam:size="{Long}21285"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T05:57:50.220Z"
+            jcr:lastModified="{Date}2018-01-29T13:07:17.547+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}360"
+            tiff:ImageWidth="{Long}270"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 Windows"
+            xmpMM:DocumentID="xmp.did:215E870CD33B11E7A4F4C0BAF77FB9B8"
+            xmpMM:InstanceID="xmp.iid:215E870BD33B11E7A4F4C0BAF77FB9B8"
+            xmpMM:OriginalDocumentID="CEFA1EA0905FBD457E0CF55B1E9E1053">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:41cc64aa-d337-11e7-89ed-c860b6ec2865"
+                stRef:instanceID="xmp.iid:252e37dc-8f2a-144c-9644-6ebb8138ad53"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

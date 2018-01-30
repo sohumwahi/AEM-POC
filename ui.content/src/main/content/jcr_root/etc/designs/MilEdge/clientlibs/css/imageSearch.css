@@ -1,0 +1,172 @@
+.main-container{
+     padding-top: 210px;
+     margin: auto auto;
+     width: 85.6%;
+ }
+  
+ .search-image-text{
+     font-family: "Proxima Nova Semibold";
+     font-size: 18px;
+     color: #4D4D4D;
+     margin: 0;
+     padding-bottom: 20px;
+ }
+  
+ .search-bar-container {
+     list-style-type: none;
+     margin: 0;
+     padding: 0 20px;
+     overflow: hidden;
+ }
+
+ .search-bar-container li {
+    display: inline-block;
+ }
+  
+ .search-bar-container li a {
+     display: block;
+     color:#4D4D4D;
+     padding: 10px 15px;
+ }
+
+ .active{
+    background-color: #daf0fa;
+}
+  
+ .search-bar-container li a:hover{
+     text-decoration: none;
+ }
+
+ .search-bar-container li a:focus {
+     background-color:#daf0fa;
+     text-decoration: none;
+ }
+
+ .search-bar{
+    width: 100%;
+     background-color: #daf0fa;
+     padding: 20px 20px;
+ }
+
+ .input-type-text-field {
+     width: 80% !important;
+     padding: 5px 15px 5px 15px;
+     border: hidden;
+ }
+  
+ .search-button {
+    line-height: 1.16;
+    position: absolute;
+    width: 165px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 6px 15px 6px 15px;
+    font-size: 16px;
+
+ }
+
+ .search-button1 {
+    line-height: 1.16;
+    position: absolute;
+    width: 165px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+ }
+
+ .hide-class{
+     display: none;
+ }
+
+ .image-result-main-container{
+    margin: auto auto;
+    width: 85.6%;
+}
+.form-control{
+    height: 30px !important;
+    padding: 5px 12px !important;
+}
+.form-control[readonly]{
+    background-color: white !important;
+    border: hidden !important;
+}
+
+.search-button2{
+margin-left:10px;
+    border-radius:4px;
+}
+
+.xyz{
+width:78.5%;
+}
+
+#no-results-text{
+	margin-bottom:210px;
+}
+
+/* 
+ Uplaod Button CSS */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.search-results-text{
+    font-size: 16px;
+    border-top: 2px solid grey;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.search-bar-container li {
+    font-family: "Proxima Nova Semibold";
+    font-size: 14px;
+    color: #4D4D4D;
+}
+
+::-webkit-input-placeholder{
+    font-family: "Proxima Nova" !important;
+    font-size: 14px !important;
+    color: #A3A3A3 !important;
+}
+.button-hide{
+    display:none;
+}
+@font-face{
+font-family:Proxima Nova;
+src: url('/etc/designs/MilEdge/clientlibs/fonts/ProximaNova-Black.ttf');
+}
+@font-face{
+font-family:Proxima Nova Regular;
+src: url('/etc/designs/MilEdge/clientlibs/fonts/ProximaNova-Reg.ttf');
+}
+@font-face{
+font-family:Proxima Nova Semibold;
+src: url('/etc/designs/MilEdge/clientlibs/fonts/ProximaNova-Sbold.ttf');
+}
+@font-face{
+font-family:Proxima Nova Light;
+src: url('/etc/designs/MilEdge/clientlibs/fonts/ProximaNova-Light.ttf');
+}
+@font-face{
+font-family:Proxima Nova Bold;
+src: url('/etc/designs/MilEdge/clientlibs/fonts/ProximaNova-Bold.ttf');
+}

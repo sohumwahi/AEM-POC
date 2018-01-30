@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6b57b924-fec1-40d4-99ae-6541b3092680">
+    <jcr:content
+        cq:name="Printed Fit and Flare Dress-chatbot.png"
+        cq:parentPath="/content/dam/MilEdgeContent/maxidress/Maxichatbot"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/maxidress/Maxichatbot/Printed Fit and Flare Dress-chatbot.png"
+        jcr:lastModified="{Date}2018-01-29T13:07:37.619+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmp:CreatorTool=&quot;Adobe Photoshop CC 2017 (Windows)&quot; xmpMM:InstanceID=&quot;xmp.iid:69281EE1DA6C11E79097C64D1AAE5D58&quot; xmpMM:DocumentID=&quot;xmp.did:69281EE2DA6C11E79097C64D1AAE5D58&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:69281EDFDA6C11E79097C64D1AAE5D58&quot; stRef:documentID=&quot;xmp.did:69281EE0DA6C11E79097C64D1AAE5D58&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2017-12-19T07:18:40.855Z"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}2"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="f14cada1b79803901d413f731fe894848a58c2df"
+            dam:size="{Long}72158"
+            dc:format="image/png"
+            dc:modified="{Date}2017-12-19T07:19:29.551Z"
+            jcr:lastModified="{Date}2018-01-29T13:07:37.406+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}360"
+            tiff:ImageWidth="{Long}270"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmpMM:DocumentID="xmp.did:69281EE2DA6C11E79097C64D1AAE5D58"
+            xmpMM:InstanceID="xmp.iid:69281EE1DA6C11E79097C64D1AAE5D58">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:69281EE0DA6C11E79097C64D1AAE5D58"
+                stRef:instanceID="xmp.iid:69281EDFDA6C11E79097C64D1AAE5D58"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

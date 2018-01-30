@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fd22cfc6-f366-498a-b7bb-aba2620339fc">
+    <jcr:content
+        cq:name="4 (2).jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/cape/cape2"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/cape/cape2/4 (2).jpg"
+        jcr:lastModified="{Date}2018-01-29T13:07:43.643+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:18:14.795Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}20.0"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}15.0"
+            dam:Progressive="yes"
+            dam:sha1="32122f98d74b4975b6cfd53db77cc5ce654e3271"
+            dam:size="{Long}736412"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T05:57:33.691Z"
+            jcr:lastModified="{Date}2018-01-29T13:07:20.847+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1440"
+            tiff:ImageWidth="{Long}1080"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

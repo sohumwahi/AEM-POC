@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel= "stylesheet" type= "text/css" href= "/etc/designs/MilEdge/clientlibs/css/bootstrap-min.css">
+    <link rel= "stylesheet" type= "text/css" href= "/etc/designs/MilEdge/clientlibs/css/style.css" >
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+    <script src= "http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+</head>
+<body>
+    <div class="header-division">
+
+
+  <header class="main-header">
+<h1 class= "filter-heading">
+            ${properties.filtertext}
+        </h1>
+        <span class="filter-list">
+            <ul class="header-menu filter-list-menu">
+                <li  id= "sizeSelector">
+                    <span class="filter-list-name">
+                        ${properties.sizedropdown}
+                    </span>
+                    <img src="/content/dam/MilEdgeContent/Header_Dropdown.png" alt="">
+                </li>
+
+                 <ul class= "filter-menu size-menu" id="sizeMenu">
+                    <li class= "size-menu-item"  style="margin: 0;"><input type="checkbox" class="menu-checkbox">
+                    XS</li>
+                    <li class= "size-menu-item" style="margin: 0;"><input type="checkbox" class="menu-checkbox"> S</li>
+                    <li class= "size-menu-item" style="margin: 0;"><input type="checkbox" class="menu-checkbox"> M</li>
+                    <li class= "size-menu-item" style="margin: 0;"><input type="checkbox" class="menu-checkbox"> L</li>
+                    <li class= "size-menu-item" style="margin: 0;"><input type="checkbox" class="menu-checkbox"> XL</li>
+                    <li class= "size-menu-item" style="margin: 0;"><input type="checkbox" class="menu-checkbox"> XXL</li>
+                </ul>
+
+                <li id= "typeSelector">
+                    <span class="filter-list-name">
+                        ${properties.typeofdress}
+                    </span>
+                    <img src="/content/dam/MilEdgeContent/Header_Dropdown.png" alt="">
+                </li>
+                        <sly data-sly-use.listUse="${'standardmultifield.js' @ multifieldName='types'}">
+                <ul class= "filter-menu dress-menu" id="dressMenu" data-sly-list="${listUse}">
+                    <li class= "dress-menu-item">
+                        <input type= "checkbox" class= "menu-checkbox">
+                        ${item.properties.dresses}
+                    </li>
+
+                </ul>
+                        </sly>
+                <li>
+                    <span class="filter-list-name" id= "colorSelector">
+                         ${properties.color}
+                    </span>
+                    <img src="/content/dam/MilEdgeContent/Header_Dropdown.png" alt="">
+                </li>
+                        <span class= "filter-menu color-menu" id= "colorMenu">
+                    <p class= "color-menu-list">
+                        <input type= "checkbox" class= "menu-checkbox">
+                        <span class= "menu-circle black-circle">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Black
+                    </p>
+                    <p class= "color-menu-list">
+                        <input type= "checkbox" class= "menu-checkbox">
+                        <span class= "menu-circle blue-circle">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Blue
+                    </p>
+                    <p class= "color-menu-list">
+                        <input type= "checkbox" class= "menu-checkbox">
+                        <span class= "menu-circle pink-circle">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Pink
+                    </p>
+                    <p class= "color-menu-list">
+                        <input type= "checkbox" class= "menu-checkbox">
+                        <span class= "menu-circle red-circle">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Red
+                    </p>
+                </span>
+            </ul>
+            <span class= "sort-menu">
+                <p class="sort-menu-title">&nbsp; ${properties.sort}</p>
+                    <sly data-sly-use.listUse="${'standardmultifield.js' @ multifieldName='sorting'}">
+                <select class= "sort-menu-list" data-sly-list="${listUse}">
+                    <option value="${item.properties.optionsort}">${item.properties.optionsort}</option>
+
+                </select>
+                    </sly>
+            </span>
+        </span>
+      </header>
+			</div>
+
+    <script src= "/etc/designs/MilEdge/clientlibs/js/main.js"></script>
+    
+    <!-- Filter Division Ends -->
+
+</body>
+</html>

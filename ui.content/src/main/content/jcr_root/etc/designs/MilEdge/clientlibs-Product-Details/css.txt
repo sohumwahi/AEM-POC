@@ -1,0 +1,2 @@
+#base=css
+/etc/designs/MilEdge/clientlibs-Product-Details/css/product-details.css

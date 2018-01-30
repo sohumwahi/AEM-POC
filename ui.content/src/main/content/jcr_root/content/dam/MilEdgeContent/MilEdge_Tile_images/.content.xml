@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <Denim-A-Line-Dress.jpg/>
+    <Blouston-Dress.jpg/>
+    <Dress.jpg/>
+    <Lace-Maxi-Dress.jpg/>
+    <Printed-Maxi-Dress.jpg/>
+    <Printed-Fit-and-Flare-Dress.jpg/>
+    <Printed-Sheath-Dress.jpg/>
+    <Solid-Fit-and-Flare-Dress.jpg/>
+    <Women-Empire-Maxi-Dress.jpg/>
+    <Women-Solid-Shirt-Dress.jpg/>
+    <Solid-Bodycon-Dress.jpg/>
+    <Women_x0020_Embellished_x0020_Maxi_x0020_Dress.jpg/>
+    <chat_x0020_icon.png/>
+    <High_x0020_low_x0020_dress.jpg/>
+    <Solid_x0020_Sheath_x0020_dress.jpg/>
+    <Embellished_x0020_Shoulder_x0020_Bag.jpg/>
+    <Pumps_x0020_.jpg/>
+    <Solid_x0020_Handheld_x0020_Bag.jpg/>
+    <Women_x0020_pumps.jpg/>
+</jcr:root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-27T15:32:58.225+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/apps/MilEdge/templates/productdetailtemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Embroidered-Pumps"
+        jcr:uuid="5b80f3e3-dda3-4aa9-8994-7f2fdab838aa"
+        sling:resourceType="/apps/MilEdge/components/structure/page">
+        <Parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <productdetails
+                jcr:created="{Date}2017-11-11T12:43:58.493+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-27T15:32:58.222+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/productDetails"
+                ARCheck="false"
+                btntext="Add to cart"
+                cbImage="/content/dam/MilEdgeContent/shoes/shoechatbot/Shoe-4.jpg"
+                Gender1="F"
+                id="20"
+                image1="/content/dam/MilEdgeContent/shoes/Shoe 4.jpg"
+                image2="/content/dam/MilEdgeContent/shoes/Shoe41.jpg"
+                image3="/content/dam/MilEdgeContent/shoes/Shoe42 .jpg"
+                image4="/content/dam/MilEdgeContent/shoes/Shoe43.jpg"
+                image5="/content/dam/MilEdgeContent/shoes/Shoe44.jpg"
+                imageBag="/content/dam/MilEdgeContent/bag.png"
+                imageTile="/content/dam/MilEdgeContent/shoes/shoetile/Shoe 4.jpg"
+                productPrice="259"
+                productTitle="Embroidered Pumps"
+                size="Select Sizes (US)"
+                stylecode="1020"
+                styleNo="bag2"/>
+            <accordion
+                jcr:created="{Date}2017-11-11T13:11:15.475+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-26T12:28:02.897+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/accordion"
+                tabOneDesc="Product Details&#xd;&#xa;A pair of black pointed toe embroidered pumps&#xd;&#xa;Synthetic upper&#xd;&#xa;Cushioned footbed&#xd;&#xa;Textured and patterned outsole, has a block heel   "
+                tabOneTitle="Description"
+                tabThreeDesc="We strive to deliver products purchased from MilEdge in excellent condition and in the fastest time possible.&#xd;&#xa;Is usually processed and shipped within 2 business days if you choose Standard shipping. &#xd;&#xa;Orders placed with Premium or Express shipping before 5pm ET will be shipped the next business day."
+                tabThreeTitle="Shipping Returns"
+                tabTwoDesc="Material &amp; Care&#xd;&#xa;Synthetic &#xd;&#xa;Wipe with a clean, dry cloth to remove dust"
+                tabTwoTitle="Specification"/>
+            <carousel
+                jcr:created="{Date}2017-11-11T13:32:33.722+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-24T11:21:39.617+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/carousel"
+                cFourTitle="Solid Handheld bag"
+                cImageFour="/content/dam/MilEdgeContent/bag1.jpg"
+                cImageOne="/content/dam/MilEdgeContent/7.jpg"
+                cImageThree="/content/dam/MilEdgeContent/Shoe 1.jpg"
+                cImageTwo="/content/dam/MilEdgeContent/lhd.jpg"
+                cOneTitle="Solid Bodycon Dress"
+                cThreeTitle="Women Pumps"
+                cTwoTitle="High Low Dress"
+                priceFour="27"
+                priceOne="79"
+                priceThree="28"
+                priceTwo="77"/>
+        </Parsys1>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="be6533c5-08dd-4501-b423-f416b0b7b420">
+    <jcr:content
+        cq:name="1.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/laceup/lacetile"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/laceup/lacetile/1.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:05:51.186+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:13:58.256Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}4.291666507720947"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}3.0833332538604736"
+            dam:Progressive="no"
+            dam:sha1="60e9ff2a29e5884abedf800a9463edd45c602318"
+            dam:size="{Long}53608"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T05:55:48.139Z"
+            exif:ColorSpace="{Long}1"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}222"
+            exif:PixelYDimension="{Long}309"
+            jcr:lastModified="{Date}2018-01-29T13:05:50.827+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            photoshop:ICCProfile="sRGB IEC61966-2.1"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}309"
+            tiff:ImageWidth="{Long}222"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="720000/10000"
+            tiff:YResolution="720000/10000"
+            xmp:CreateDate="{Date}2017-11-27T14:26:11.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-11-27T14:59:49.000+05:30"
+            xmp:ModifyDate="{Date}2017-11-27T14:59:49.000+05:30"
+            xmpMM:DocumentID="D2F974D1A4271B5293CD12B2F64E618A"
+            xmpMM:InstanceID="xmp.iid:37d97bc9-6bf2-a949-a81f-1d831b28dbd7"
+            xmpMM:OriginalDocumentID="D2F974D1A4271B5293CD12B2F64E618A">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:37d97bc9-6bf2-a949-a81f-1d831b28dbd7"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-27T14:59:49.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

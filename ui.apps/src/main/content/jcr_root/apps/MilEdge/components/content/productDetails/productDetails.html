@@ -1,0 +1,109 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='product-Details'}" data-sly-unwrap/>
+<cq:includeClientLib categories="product-Details" />
+<div class="cq-placeholder section hidden-xs" data-emptytext="Product Details"></div>
+<div class="product-detail-wrapper">
+<div class="product-detail-body">
+    <input type="hidden" id="pgTitle" value="${properties.productTitle}">
+<input type="hidden" id="prodPrice" value="${properties.productPrice}">
+<input type="hidden" id="prodId" value="${properties.id}">
+        <div class="product-details-image">
+            <ul class= "product-list">
+                <li id= "imageOne">
+                    <img src= "${properties.image1}"  class= "image-one" alt= "Product Image 1" />
+                </li>
+
+                <li id= "imageTwo">
+                    <img src= "${properties.image2}" class= "image-two" alt= "Product Image 2" />
+                </li>
+
+                <li id= "imageThree">
+                    <img src= "${properties.image3}" class= "image-three" alt= "Product Image 3" />
+                </li>
+
+                <li id= "imageFour">
+                    <img src= "${properties.image4}" class= "image-four" alt= "Product Image 4" />
+                </li>
+
+                <li id= "imageFive">
+                    <img src= "${properties.image5}" class= "image-five" alt= "Product Image 5" />
+                </li>
+            </ul>
+            <div class= "product-image">
+                <img src="${properties.image1}" class= "product-display-image" alt= "Product image" />
+            </div>
+        </div>
+        <div class="product-description">
+            <h1 class="product-description-title">
+                 ${properties.productTitle}
+            </h1>
+            <h2 class="product-description-price">
+                <span class="product-price">$</span>
+               ${properties.productPrice}
+            </h2>
+            <h3 class="product-description-style">
+                Style Number: ${properties.styleNo}
+            </h3>
+            <h3 class="product-description-size">
+                Select Size (UK size)
+            </h3>
+            <span class="product-description-size-chart">
+                Size Chart
+            </span>
+            <ul class="product-description-size-list">
+                <li>
+                    <button class="size-button">XS</button>
+                </li>
+                <li>
+                    <button class="size-button">S</button>
+                </li>
+                <li>
+                    <button class="size-button">M</button>
+                </li>
+                <li>
+                    <button class="size-button">L</button>
+                </li>
+                <li>
+                    <button class="size-button">XL</button>
+                </li>
+                <li>
+                    <button class="size-button">XXL</button>
+                </li>
+            </ul>
+            <h3 class="product-description-quantity">
+                Quantity
+            </h3>
+            <div>
+                <button class="reduce-quantity">-</button>
+                <input type="number" min="0" value="1" class="text-quantity"/>
+                <button class= "add-quantity">+</button>
+            </div>
+            <div class="add-to-cart">
+                <button class="add-to-cart-btn">
+                    <img src=" ${properties.imageBag}" alt="Add to cart" class="cart-btn-icon"> ADD TO BAG</button>
+            </div>
+            <p class="emi-option">
+                EMI option not available*
+            </p>
+            <ul class="share-social-media">
+                <li>
+                    <button class="social-btn facebook">
+                    </button>                    
+                </li>
+                <li>
+                    <button class="social-btn twitter">
+                    </button>
+                </li>
+                <li>
+                    <button class="social-btn google-plus">
+                    </button>
+                </li>
+                <li>
+                    <button class="social-btn pintrest">
+                    </button>
+                </li>
+            </ul>
+        </div>
+        </div>
+</div>
+
+

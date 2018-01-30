@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="04cc935e-1203-490a-8fdb-cdbb9f0b2726">
+    <jcr:content
+        cq:name="11498714886081-Label-Ritu-Kumar-Women-Dresses-8431498714885892-1_mini.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/maxidress/Maxitile"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/maxidress/Maxitile/11498714886081-Label-Ritu-Kumar-Women-Dresses-8431498714885892-1_mini.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:07:14.263+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:31.169Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="b5296d831a96d99fe3ecc11889f325c7960f9225"
+            dam:size="{Long}28007"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T05:57:24.803Z"
+            jcr:lastModified="{Date}2018-01-29T13:07:13.983+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}360"
+            tiff:ImageWidth="{Long}270"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 Windows"
+            xmpMM:DocumentID="xmp.did:1729C984D33B11E79CB8ED75E0585BC5"
+            xmpMM:InstanceID="xmp.iid:1729C983D33B11E79CB8ED75E0585BC5"
+            xmpMM:OriginalDocumentID="CEFA1EA0905FBD457E0CF55B1E9E1053">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="adobe:docid:photoshop:41cc64aa-d337-11e7-89ed-c860b6ec2865"
+                stRef:instanceID="xmp.iid:252e37dc-8f2a-144c-9644-6ebb8138ad53"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

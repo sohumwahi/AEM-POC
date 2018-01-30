@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Cape chatbot"/>
+    <_x0031_.jpg/>
+    <_x0033_.jpg/>
+    <_x0035_.jpg/>
+    <_x0036_.jpg/>
+    <_x0034_.jpg/>
+    <_x0032_.jpg/>
+    <_x0037_.jpg/>
+    <_x0038_.jpg/>
+    <_x0031_1.jpg/>
+    <_x0039_.jpg/>
+    <_x0031_0.jpg/>
+    <_x0031_2.jpg/>
+</jcr:root>

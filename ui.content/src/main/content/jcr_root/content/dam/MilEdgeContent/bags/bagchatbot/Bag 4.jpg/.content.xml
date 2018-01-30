@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="52573f6a-b280-40cd-8889-6c953a657364">
+    <jcr:content
+        cq:name="Bag 4.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/bags/bagchatbot"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/bags/bagchatbot/Bag 4.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:07:17.316+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:28.904Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}150"
+            dam:Physicalheightininches="{Decimal}0.6666666865348816"
+            dam:Physicalwidthindpi="{Long}150"
+            dam:Physicalwidthininches="{Decimal}0.5"
+            dam:Progressive="no"
+            dam:sha1="de7934d1254cb79c3808e7b4159adcdbb619ff5d"
+            dam:size="{Long}16267"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T06:00:19.392Z"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}75"
+            exif:PixelYDimension="{Long}100"
+            jcr:lastModified="{Date}2018-01-29T13:07:17.216+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}100"
+            tiff:ImageWidth="{Long}75"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="1500000/10000"
+            tiff:YResolution="1500000/10000"
+            xmp:CreateDate="{Date}2017-11-27T11:08:07.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-11-27T12:06:53.000+05:30"
+            xmp:ModifyDate="{Date}2017-11-27T12:06:53.000+05:30"
+            xmpMM:DocumentID="0346F917308DBC23B88D41199589C7AB"
+            xmpMM:InstanceID="xmp.iid:4e06bd6d-e5b4-1b4f-82a7-e74e45b12814"
+            xmpMM:OriginalDocumentID="0346F917308DBC23B88D41199589C7AB">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:4e06bd6d-e5b4-1b4f-82a7-e74e45b12814"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-27T12:06:53.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d9b5d933-9d4b-4b7c-9d50-f5bb08e4b9dd">
+    <jcr:content
+        cq:name="Shoe41.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/shoes"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/shoes/Shoe41.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:07:16.895+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:17:25.120Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}72"
+            dam:Physicalheightininches="{Decimal}8.88888931274414"
+            dam:Physicalwidthindpi="{Long}72"
+            dam:Physicalwidthininches="{Decimal}6.666666507720947"
+            dam:Progressive="no"
+            dam:sha1="b6a7bfb55b5802fdf23cc91e44109fa777e3271e"
+            dam:size="{Long}54200"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-26T07:30:33.673Z"
+            jcr:lastModified="{Date}2018-01-29T13:07:13.033+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}640"
+            tiff:ImageWidth="{Long}480"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

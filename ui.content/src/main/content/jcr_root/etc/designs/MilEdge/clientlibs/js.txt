@@ -1,0 +1,10 @@
+#base=js
+/etc/designs/MilEdge/clientlibs/js/jquery-3.2.1.min.js
+/etc/designs/MilEdge/clientlibs/js/jquery-templ.js
+/etc/designs/MilEdge/clientlibs/js/jquery-ui.js
+/etc/designs/MilEdge/clientlibs/js/bootstrap.min.js
+/etc/designs/MilEdge/clientlibs/js/nmp.js
+/etc/designs/MilEdge/clientlibs/js/searchImage.js
+/etc/designs/MilEdge/clientlibs/js/chatbot.js
+/etc/designs/MilEdge/clientlibs/js/facebook.js
+/etc/designs/MilEdge/clientlibs/js/main.js

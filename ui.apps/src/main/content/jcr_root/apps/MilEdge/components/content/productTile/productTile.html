@@ -1,0 +1,20 @@
+<div class="cq-placeholder section" data-emptytext="Product Tile"></div>
+
+	<sly data-sly-use.listUse="${'standardmultifield.js' @ multifieldName='products'}">		
+	<div data-sly-list="${listUse}">
+            <div class="col-xs-6 col-md-3 product-box">
+                <a href="${item.properties.link}"><img src="${item.properties.image}" ></a>
+                <div class="product-details">
+                    <p class="product-title">
+                        ${item.properties.name}
+                    </p>
+                    <p class= "product-title product-price">
+                        <span class= "product-title-price">
+                            $ 
+                        </span>
+                        ${item.properties.price}
+                    </p>
+                </div>
+            </div>
+			</div>
+			</sly>

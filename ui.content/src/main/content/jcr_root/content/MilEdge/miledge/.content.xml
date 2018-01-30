@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <en/>
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-12-20T05:56:45.818Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/MilEdge/templates/home"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="MilEdge"
+        jcr:uuid="9824b056-94d1-4579-93b6-08d235a8a10c"
+        sling:resourceType="/apps/MilEdge/components/structure/page">
+        <Iparsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <header
+                jcr:created="{Date}2017-11-09T12:33:14.404+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-20T05:56:45.814Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/header"
+                download="Download App"
+                downloadlink="/content/MilEdge/miledge/en/product/dress"
+                elink="/content/MilEdge/miledge/en/home"
+                image="/content/dam/MilEdgeContent/ButterBerry_Logo_Black_Desktop.png"
+                linkURL="/content/MilEdge/miledge/en/home"
+                listFrom="lDam">
+                <links2 jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        path2="#"
+                        text2="About Us"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        path2="#"
+                        text2="Contact Us"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        path2="#"
+                        text2="My Account "/>
+                </links2>
+            </header>
+        </Iparsys1>
+        <Parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys"/>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+        <Iparsys2
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/iparsys">
+            <chatbot
+                jcr:created="{Date}2017-11-30T05:42:22.783Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-30T05:42:22.783Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/Chatbot"/>
+            <footer
+                jcr:created="{Date}2017-11-30T05:42:31.050Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-30T05:42:31.050Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/footer"/>
+        </Iparsys2>
+    </jcr:content>
+</jcr:root>

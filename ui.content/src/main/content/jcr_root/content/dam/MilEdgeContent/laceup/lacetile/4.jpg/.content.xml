@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ff991976-2b12-4969-988d-bf335141944e">
+    <jcr:content
+        cq:name="4.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/laceup/lacetile"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/laceup/lacetile/4.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:05:55.371+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:13:26.964Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}150"
+            dam:Physicalheightininches="{Decimal}2.059999942779541"
+            dam:Physicalwidthindpi="{Long}150"
+            dam:Physicalwidthininches="{Decimal}1.4800000190734863"
+            dam:Progressive="no"
+            dam:sha1="24dd4ab1eff6659be7f65af53d9561b83483e3d5"
+            dam:size="{Long}38723"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T05:56:01.182Z"
+            exif:ColorSpace="{Long}65535"
+            exif:ExifVersion="0221"
+            exif:PixelXDimension="{Long}222"
+            exif:PixelYDimension="{Long}309"
+            jcr:lastModified="{Date}2018-01-29T13:05:55.044+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:ColorMode="{Long}3"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}309"
+            tiff:ImageWidth="{Long}222"
+            tiff:Orientation="{Long}1"
+            tiff:PhotometricInterpretation="{Long}2"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:SamplesPerPixel="{Long}3"
+            tiff:XResolution="1500000/10000"
+            tiff:YResolution="1500000/10000"
+            xmp:CreateDate="{Date}2017-11-27T14:26:11.000+05:30"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmp:MetadataDate="{Date}2017-11-27T14:59:55.000+05:30"
+            xmp:ModifyDate="{Date}2017-11-27T14:59:55.000+05:30"
+            xmpMM:DocumentID="BD04B4F6D3564CA9649FF8DAC235A87F"
+            xmpMM:InstanceID="xmp.iid:b5de4e4a-2b83-8045-8549-7c7402f7df94"
+            xmpMM:OriginalDocumentID="BD04B4F6D3564CA9649FF8DAC235A87F">
+            <xmpMM:History
+                jcr:primaryType="nt:unstructured"
+                xmpArraySize="{Long}1"
+                xmpArrayType="rdf:Seq"
+                xmpNodeType="xmpArray">
+                <_x0031_
+                    jcr:primaryType="nt:unstructured"
+                    stEvt:action="saved"
+                    stEvt:changed="/"
+                    stEvt:instanceID="xmp.iid:b5de4e4a-2b83-8045-8549-7c7402f7df94"
+                    stEvt:softwareAgent="Adobe Photoshop CC 2017 (Windows)"
+                    stEvt:when="{Date}2017-11-27T14:59:55.000+05:30"
+                    xmpNodeType="xmpStruct"/>
+            </xmpMM:History>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

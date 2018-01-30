@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-27T15:25:47.609+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/apps/MilEdge/templates/productdetailtemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Solid Crop Top"
+        jcr:uuid="ab860a23-172c-43f1-a877-6a75f161d39a"
+        sling:resourceType="/apps/MilEdge/components/structure/page">
+        <Parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <productdetails
+                jcr:created="{Date}2017-11-11T12:43:58.493+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-27T15:25:47.605+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/productDetails"
+                ARCheck="false"
+                btntext="Add to cart"
+                cbImage="/content/dam/MilEdgeContent/cape/capechatbot/7.jpg"
+                Gender1="F"
+                id="36"
+                image1="/content/dam/MilEdgeContent/cape/cape7/1 (8).jpg"
+                image2="/content/dam/MilEdgeContent/cape/cape7/2 (8).jpg"
+                image3="/content/dam/MilEdgeContent/cape/cape7/3 (8).jpg"
+                image4="/content/dam/MilEdgeContent/cape/cape7/4 (8).jpg"
+                image5="/content/dam/MilEdgeContent/cape/cape7/5 (8).jpg"
+                imageBag="/content/dam/MilEdgeContent/bag.png"
+                imageTile="/content/dam/MilEdgeContent/cape/capetileimages/7.jpg"
+                productPrice="160"
+                productTitle="Solid Crop Top"
+                size="Select Sizes (US)"
+                stylecode="332"
+                styleNo="ssd1"
+                styleType="casual"/>
+            <accordion
+                jcr:created="{Date}2017-11-11T13:11:15.475+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-27T11:53:39.236+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/accordion"
+                tabOneDesc="Off-white solid woven layered crop top, has a V-neck with criss-cross strap detail, short butterfly sleeves, cut-out and tie-up detail on the back, button-and-loop closures on the back&#xd;&#xa;"
+                tabOneTitle="Description"
+                tabThreeDesc="We strive to deliver products purchased from MilEdge in excellent condition and in the fastest time possible.&#xd;&#xa;Is usually processed and shipped within 2 business days if you choose Standard shipping. &#xd;&#xa;Orders placed with Premium or Express shipping before 5pm ET will be shipped the next business day."
+                tabThreeTitle="Shipping Returns"
+                tabTwoDesc="Material &amp; Care&#xd;&#xa;100% rayon &#xd;&#xa;Hand-wash"
+                tabTwoTitle="Specification"/>
+            <carousel
+                jcr:created="{Date}2017-11-11T13:32:33.722+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-24T11:21:39.617+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/carousel"
+                cFourTitle="Solid Handheld bag"
+                cImageFour="/content/dam/MilEdgeContent/bag1.jpg"
+                cImageOne="/content/dam/MilEdgeContent/7.jpg"
+                cImageThree="/content/dam/MilEdgeContent/Shoe 1.jpg"
+                cImageTwo="/content/dam/MilEdgeContent/lhd.jpg"
+                cOneTitle="Solid Bodycon Dress"
+                cThreeTitle="Women Pumps"
+                cTwoTitle="High Low Dress"
+                priceFour="27"
+                priceOne="79"
+                priceThree="28"
+                priceTwo="77"/>
+        </Parsys1>
+    </jcr:content>
+</jcr:root>

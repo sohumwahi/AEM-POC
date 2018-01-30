@@ -1,0 +1,91 @@
+    <sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.all @ categories='renderClientLib'}" data-sly-unwrap/> 
+
+    <head>
+        			
+                    <script src="//assets.adobedtm.com/3ac9df97e803348476ca0ef2d7553c4497328f2b/satelliteLib-a0f655af7d263708fcd76fb2e9af8ffac68134cc-staging.js"></script>
+                    <meta name="keywords" content="best online shopping sites for women's clothing , party outfits for women, evening gowns, dresses, party dresses, miledge, miledge online shopping, Outfit for house warming party, Black short sleeve dress, Embellished woven maxi dress, Lace up dress, Denim shirt, Gift Item, Fashion gift item, Gift for sister’s birthday, Best fashion accessory to gift, party gowns for womens, handbags, trendy clothing websites for women, evening gowns, short party dresses,  cocktail tops for women, Stilettos, high heels" />
+                    <meta name="description" content="Online Shopping website for great Fashion & Lifestyle for every occasion.Buy Clothing,  Shoes, Accessories and products for women & men. Best Online Fashion Store." />  
+
+    </head>
+
+      <body>
+          <div >
+              <sly data-sly-resource="${@path='Iparsys1', resourceType='foundation/components/iparsys'}" data-sly-unwrap/> 
+          </div>
+          <div class="wrapper">
+              <div class="body-wrapper">
+                    <sly data-sly-resource="${@path='Parsys1', resourceType='foundation/components/parsys'}" data-sly-unwrap/> 
+              </div>
+          </div>
+          <div >
+                    <sly data-sly-resource="${@path='Iparsys2', resourceType='foundation/components/iparsys'}" data-sly-unwrap/> 
+          </div>
+              	<input type="hidden" id="pageName" value="${currentPage.title}">
+      </body>
+
+      <footer>
+
+    <script type="text/javascript">_satellite.pageBottom();</script>
+      <script>
+       	var cat=function checkURL(){
+        var url = window.location.href;
+        var category;
+            if(url.includes("/product/")){
+				category="productPage";
+            }
+            else{
+                category="homePage"
+            }
+            return category;
+        }
+        var productCategory=function(){
+		var url = window.location.href;
+        var category;
+            if(url.includes("solid-handheld-bag")||url.includes("embellished-shoulder-bag")||url.includes("Brown-handbag")||url.includes("Textured-Bucket-bag")){
+				category="purse";
+            }
+          	else if(url.includes("women-pumps")||url.includes("pumps")||url.includes("Women-heels")||url.includes("Embroidered-Pumps")){
+				category="shoes";
+            }
+            else if(url.includes("/product/")){
+                category="dress";
+            }
+          return category;
+          }
+	var data=function(){var pn=document.getElementById("chatbotData").textContent;return pn;}
+    var pageName=function(){ var pn=$("#pageName").val();return pn;}
+	var productName=function(){var pn=$("#pgTitle").val();return pn;}
+	var productId=function(){var pn=$("#prodId").val();return pn;}
+    var productPrice=function(){var pn=$("#prodPrice").val();return pn;}
+    var dataLayer={
+    "pageDetails":{
+    	"visitorType":"guest user",
+    	"pageCategory":cat(),
+        "deviceType":"Desktop",
+        "pageName":pageName(),
+        "pageURL":window.location.pathname,
+        "urlPathName":"http://34.207.125.192:4510"+window.location.pathname},
+     "productDetails":{
+    	"prodCategory":productCategory(),
+    	"productName":productName(),
+        "prodcutId":productId(),
+        "productPrice":productPrice(),
+        "promoCode":"",
+        "addToCart":"",
+        "deviceType":"Desktop",
+        "whishlist":"",
+        "productSelectionData":""
+    	},
+	"chatbotData":{
+		"data":data()
+          },
+        "facebookData":{
+        	"name":"",
+       		"birthday":"",
+        	"hometown":"",
+        	"email":"",
+        	"gender":""
+          }
+    }
+    </script>
+              </footer>

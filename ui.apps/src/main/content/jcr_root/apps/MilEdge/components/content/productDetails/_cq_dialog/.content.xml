@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Product Details"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    helpPath="https://www.adobe.com/go/aem6_3_docs_component_en#Carousel">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items
+            jcr:primaryType="nt:unstructured"
+            sling:hideChildren="[column]">
+            <product-images
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Product-Images"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <heading
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/heading"
+                                class="coral-Heading coral-Heading--4"
+                                level="{Long}4"
+                                text="Select the Product Images"/>
+                            <imageTile
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select the Tile Image"
+                                name="./imageTile"
+                                rootPath="/content/dam/"/>
+                            <imageOne
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select Image 1"
+                                name="./image1"
+                                rootPath="/content/dam/"/>
+                            <imageTwo
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select Image 2"
+                                name="./image2"
+                                rootPath="/content/dam/"/>
+                            <imageThree
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select Image 3"
+                                name="./image3"
+                                rootPath="/content/dam/"/>
+                            <imageFour
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select Image 4"
+                                name="./image4"
+                                rootPath="/content/dam/"/>
+                            <imageFive
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select Image 5"
+                                name="./image5"
+                                rootPath="/content/dam/"/>
+                            <imageBag
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select cart bag Image "
+                                name="./imageBag"
+                                rootPath="/content/dam/"/>
+                            <chatbotThumbail
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                fieldDescription="image path"
+                                fieldLabel="Select the Thumbnail image for chatbot"
+                                name="./cbImage"
+                                rootPath="/content/dam/"/>
+                        </items>
+                    </column>
+                </items>
+            </product-images>
+            <Text-Fields
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Text_Fields"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"
+                    margin="{Boolean}false"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <heading
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/heading"
+                                class="coral-Heading coral-Heading--4"
+                                level="{Long}4"
+                                text="Fill the product details"/>
+                            <id
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="give the ID"
+                                fieldLabel="ID"
+                                name="./id"/>
+                            <product_title
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="image path"
+                                fieldLabel="Select the product title"
+                                name="./productTitle"
+                                rootPath="/content/dam/"/>
+                            <product_price
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="image path"
+                                fieldLabel="Select the product price"
+                                name="./productPrice"
+                                rootPath="/content/dam/"/>
+                            <style_code
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="image path"
+                                fieldLabel="Style code"
+                                name="./stylecode"
+                                rootPath="/content/dam/"/>
+                            <sizes
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="image path"
+                                fieldLabel="Sizes"
+                                name="./size"
+                                rootPath="/content/dam/"/>
+                            <button
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="image path"
+                                fieldLabel="Button Text"
+                                name="./btntext"
+                                rootPath="/content/dam/"/>
+                            <styleType
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/coral/foundation/form/textfield"
+                                fieldDescription="style type"
+                                fieldLabel="Select the style type"
+                                name="./styleType"/>
+                            <heading2
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/heading"
+                                class="coral-Heading coral-Heading--4"
+                                level="{Long}4"
+                                text="Select Gender"/>
+                            <gender
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/foundation/form/radio"
+                                cq-msm-lockable="Gender1"
+                                name="./Gender1"
+                                renderReadonly="true"
+                                text="Male"
+                                value="M"/>
+                            <genderHidden
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/foundation/form/radio"
+                                cq-msm-lockable="Gender1"
+                                name="./Gender1"
+                                renderReadonly="true"
+                                text="Female"
+                                value="F"/>
+                            <heading3
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/heading"
+                                class="coral-Heading coral-Heading--4"
+                                level="{Long}4"
+                                text="Select  AR Capability"/>
+                            <arCompatibility
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/foundation/form/radio"
+                                cq-msm-lockable="ARCheck"
+                                fieldLabel="AR Compatibility"
+                                name="./ARCheck"
+                                renderReadonly="true"
+                                text="Yes"
+                                value="true"/>
+                            <arCompatibilityHidden
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="/libs/granite/ui/components/foundation/form/radio"
+                                cq-msm-lockable="ARCheck"
+                                fieldLabel="AR Compatibility"
+                                name="./ARCheck"
+                                renderReadonly="true"
+                                text="No"
+                                value="false"/>
+                        </items>
+                    </column>
+                </items>
+            </Text-Fields>
+        </items>
+    </content>
+</jcr:root>

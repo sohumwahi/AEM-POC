@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a550e143-8c22-4990-a26b-181f910c188f">
+    <jcr:content
+        cq:name="l5.jpg"
+        cq:parentPath="/content/dam/MilEdgeContent/managetiles"
+        dam:assetState="processed"
+        dam:relativePath="MilEdgeContent/managetiles/l5.jpg"
+        jcr:lastModified="{Date}2018-01-29T13:08:43.100+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2017-12-19T07:21:20.596Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="93fbfe257d9696fe4974514af12a5c28e7b10fbe"
+            dam:size="{Long}99039"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2017-11-28T06:27:38.623Z"
+            jcr:lastModified="{Date}2018-01-29T13:08:35.738+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}475"
+            tiff:ImageWidth="{Long}275"
+            xmp:CreatorTool="Adobe Photoshop CC 2017 (Windows)"
+            xmpMM:DocumentID="xmp.did:374B1D40D36111E7BF08C5CABAD83C9F"
+            xmpMM:InstanceID="xmp.iid:374B1D3FD36111E7BF08C5CABAD83C9F"
+            xmpMM:OriginalDocumentID="xmp.did:09e5d099-6a37-694f-9854-df3c3008ca4e">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:09e5d099-6a37-694f-9854-df3c3008ca4e"
+                stRef:instanceID="xmp.iid:09e5d099-6a37-694f-9854-df3c3008ca4e"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

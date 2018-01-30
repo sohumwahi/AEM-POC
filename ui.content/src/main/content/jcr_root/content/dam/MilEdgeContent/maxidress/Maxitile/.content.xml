@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Maxi Tile"/>
+    <_x0031_1489472857357-MANGO-Women-Black-Self-design-Maxi-Dress-3141489472857069-1_mini.jpg/>
+    <_x0031_1495432217338-Label-Ritu-Kumar-Women-Dresses-7031495432217117-1_mini.jpg/>
+    <_x0031_1494937753330-Tommy-Hilfiger-Women-White-Printed-Maxi-Dress-2111494937753071-1_mini.jpg/>
+    <_x0031_1494324862212-Label-Ritu-Kumar-Women-Dresses-3571494324862242-1_mini.jpg/>
+    <_x0031_1498714886081-Label-Ritu-Kumar-Women-Dresses-8431498714885892-1_mini.jpg/>
+    <_x0031_1502451809829-Label-Ritu-Kumar-Women-Dresses-2351502451809583-1_mini.jpg/>
+    <_x0031_1504094639391-Label-Ritu-Kumar-Women-Dresses-7741504094639042-1_mini.jpg/>
+    <_x0031_1505741513048-Tommy-Hilfiger-Women-Dresses-3731505741512905-1_mini.jpg/>
+    <_x0031_1506493603881-Ritu-Kumar-Women-Red-Solid-A-Line-Dress-3711506493603637-1_mini.jpg/>
+    <_x0031_1506493615250-Ritu-Kumar-Women-Pink-Solid-Fit-and-Flare-Dress-3071506493615055-1_mini.jpg/>
+    <_x0031_1506493610246-Ritu-Kumar-Women-Off-White-Solid-A-Line-Dress-2681506493610011-1_mini.jpg/>
+    <GUESS-Women-Dresses_1_974421659ce8822e9b21717acb9a6ccb_mini.jpg/>
+</jcr:root>

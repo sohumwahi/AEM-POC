@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-28T06:09:19.554Z"
+        cq:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="nt:unstructured"/>
+    <miledge/>
+    <dummypages/>
+    <facebookData jcr:primaryType="nt:unstructured">
+        <_x0031_44470522981625
+            jcr:primaryType="nt:unstructured"
+            gender="female"
+            hometown="pj97073@gmail.com"
+            id="144470522981625"
+            name="Patricia Jones"/>
+        <_x0031_0211490477642492
+            jcr:primaryType="nt:unstructured"
+            gender="male"
+            id="10211490477642492"
+            name="Rohit Chauhan"/>
+        <_x0031_0204147486403664
+            jcr:primaryType="nt:unstructured"
+            gender="male"
+            id="10204147486403664"
+            name="Sai Kiran Bsv"/>
+        <_x0031_0214912712640402
+            jcr:primaryType="nt:unstructured"
+            gender="male"
+            id="10214912712640402"
+            name="Sohum Wahi"/>
+        <_x0031_0154915422505684
+            jcr:primaryType="nt:unstructured"
+            gender="male"
+            id="10154915422505684"
+            name="Mohd Meraj Siddiqui"/>
+    </facebookData>
+    <chatbotData
+        jcr:primaryType="nt:unstructured"
+        data="\{&quot;userData&quot;:{&quot;chatHistory&quot;:{&quot;excitment&quot;:&quot;Yes. How did you know?&quot;,&quot;begning&quot;:&quot;I am looking for a dress for myself.&quot;,&quot;dress&quot;:&quot;maxi&quot;,&quot;imageUrl&quot;:&quot;No.&quot;,&quot;prefCapture&quot;:&quot;No. its too expensive/ I want to try before buying.&quot;}}}"/>
+</jcr:root>

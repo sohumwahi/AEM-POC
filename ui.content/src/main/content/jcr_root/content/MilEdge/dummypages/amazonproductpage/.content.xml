@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-11-28T19:14:19.302+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/MilEdge/templates/dummy"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="amazonProductPAge"
+        jcr:uuid="e329e5ea-142e-46ac-ab31-d311bb44a5c6"
+        sling:resourceType="/apps/MilEdge/components/structure/product">
+        <Parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <amazonproductpage
+                jcr:created="{Date}2017-11-28T19:14:19.300+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-28T19:14:19.300+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/amazonProductPage"/>
+        </Parsys1>
+    </jcr:content>
+</jcr:root>

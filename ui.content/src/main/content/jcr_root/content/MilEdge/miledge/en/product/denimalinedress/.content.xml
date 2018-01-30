@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-11-27T13:24:00.063+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/apps/MilEdge/templates/productdetailtemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Denim A Line Dress"
+        jcr:uuid="d4855702-d930-4aa2-ad0c-6a39b82f14d2"
+        sling:resourceType="/apps/MilEdge/components/structure/page">
+        <Parsys1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <productdetails
+                jcr:created="{Date}2017-11-11T12:43:58.493+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-27T13:24:00.061+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/productDetails"
+                ARCheck="true"
+                btntext="Add to Cart"
+                cbImage="/content/dam/MilEdgeContent/demindress/denimchatbot/3.jpg"
+                Gender1="F"
+                id="10"
+                image1="/content/dam/MilEdgeContent/demindress/denim3/3 (3).jpg"
+                image2="/content/dam/MilEdgeContent/demindress/denim3/1 (4).jpg"
+                image3="/content/dam/MilEdgeContent/demindress/denim3/5 (3).jpg"
+                image4="/content/dam/MilEdgeContent/demindress/denim3/3 (4).jpg"
+                image5="/content/dam/MilEdgeContent/demindress/denim3/2 (4).jpg"
+                imageBag="/content/dam/MilEdgeContent/bag.png"
+                imageTile="/content/dam/MilEdgeContent/MilEdge_Tile_images/Denim-A-Line-Dress.jpg"
+                productPrice="479"
+                productTitle="Denim A Line Dress"
+                size="Select Sizes (US)"
+                stylecode="1010"
+                styleNo="Den3"/>
+            <accordion
+                jcr:created="{Date}2017-11-11T13:11:15.475+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-11T13:27:14.905+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/accordion"
+                tabOneDesc="Blue denim A-line dress, has a round neck, sleeveless, a zip closure"
+                tabOneTitle="Description"
+                tabThreeDesc="We strive to deliver products purchased from MilEdge in excellent condition and in the fastest time possible.&#xa;Is usually processed and shipped within 2 business days if you choose Standard shipping. &#xa;Orders placed with Premium or Express shipping before 5pm ET will be shipped the next business day."
+                tabThreeTitle="Shipping Returns"
+                tabTwoDesc="Material &amp; Care&#xa;100% lyocell&#xa;Machine-wash cold"
+                tabTwoTitle="Specification"/>
+            <carousel
+                jcr:created="{Date}2017-11-11T13:32:33.722+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-11-24T11:21:39.617+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="MilEdge/components/content/carousel"
+                cFourTitle="Solid Handheld bag"
+                cImageFour="/content/dam/MilEdgeContent/bag1.jpg"
+                cImageOne="/content/dam/MilEdgeContent/7.jpg"
+                cImageThree="/content/dam/MilEdgeContent/Shoe 1.jpg"
+                cImageTwo="/content/dam/MilEdgeContent/lhd.jpg"
+                cOneTitle="Solid Bodycon Dress"
+                cThreeTitle="Women Pumps"
+                cTwoTitle="High Low Dress"
+                priceFour="27"
+                priceOne="79"
+                priceThree="28"
+                priceTwo="77"/>
+        </Parsys1>
+    </jcr:content>
+</jcr:root>
